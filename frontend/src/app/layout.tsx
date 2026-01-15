@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Privy-Lips - Private Liquidity Protocol",
   description: "Private Liquidity Protocol on Mantle Network with ZK privacy features",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

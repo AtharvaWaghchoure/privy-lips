@@ -18,7 +18,12 @@ export default function Header() {
     <header className="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-3 group">
+            <img 
+              src="/logo-icon.svg" 
+              alt="Privy-Lips Logo" 
+              className="w-10 h-10 transition-transform group-hover:scale-105"
+            />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent group-hover:from-blue-700 group-hover:to-indigo-700 transition-all">
               Privy-Lips
             </span>
